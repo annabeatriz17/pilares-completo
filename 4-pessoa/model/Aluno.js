@@ -1,3 +1,17 @@
+import Pessoa from "./Pessoa.js";
+class Aluno {
+  objetivos;
+  turma;
+
+  constructor(objetivos, turma) {
+    super(nome, idade);
+    this.objetivos = objetivos;
+    this.turma = turma;
+  }
+}
+
+export default Aluno;
+
 // importar classes herdadas (caso tenham)
 
 // criação de classe

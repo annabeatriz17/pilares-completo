@@ -1,3 +1,16 @@
+
+
+class Pessoa {
+  nome;
+  idade;
+
+  constructor(nome, idade) {
+    this.nome = nome;
+    this.idade = idade;
+  }
+}
+export default Pessoa;
+
 // importar classes herdadas (caso tenham)
 
 // criação de classe

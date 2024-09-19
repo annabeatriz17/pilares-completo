@@ -1,3 +1,15 @@
+import Pessoa from "./Pessoa.js";
+
+class Professor extends Pessoa {
+  especialidades;
+
+  constructor(nome, idade, especialidades) {
+    super(nome, idade);
+    this.especialidades = especialidades;
+  }
+}
+export default Professor;
+
 // importar classes herdadas (caso tenham)
 
 // criação de classe
