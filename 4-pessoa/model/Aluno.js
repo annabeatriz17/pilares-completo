@@ -1,9 +1,9 @@
 import Pessoa from "./Pessoa.js";
-class Aluno {
+class Aluno extends Pessoa {
   objetivos;
   turma;
 
-  constructor(objetivos, turma) {
+  constructor(nome, idade, objetivos, turma) {
     super(nome, idade);
     this.objetivos = objetivos;
     this.turma = turma;
